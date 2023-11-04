@@ -1,5 +1,5 @@
 {
-  "name": "@councildataproject/cdp-frontend",
+  "name": "@sunshine-request/cdp-frontend",
   "engines": {
     "node": "16.x",
     "npm": "8.x"
@@ -121,7 +121,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CouncilDataProject/cdp-frontend.git"
+    "url": "git+https://github.com/sushine-request/cdp-frontend.git"
   },
   "keywords": [
     "civic technology",
@@ -129,7 +129,7 @@
     "data access"
   ],
   "bugs": {
-    "url": "https://github.com/CouncilDataProject/cdp-frontend/issues"
+    "url": "https://github.com/sushine-request/cdp-frontend/issues"
   },
-  "homepage": "https://github.com/CouncilDataProject/cdp-frontend"
+  "homepage": "https://github.com/sushine-request/cdp-frontend"
 }
