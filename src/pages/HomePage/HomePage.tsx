@@ -36,6 +36,7 @@ const HomePage: FC = () => {
         {strings.search_municipality_name.replace("{municipality_name}", municipality.name)}
       </h1>
       <HomeSearchBar />
+      TEST
     </Container>
   );
 };
