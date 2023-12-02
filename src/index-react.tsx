@@ -8,13 +8,13 @@ ReactDOM.render(
       appConfig={{
         firebaseConfig: {
           options: {
-            projectId: "cdp-seattle-21723dcf",
+            projectId: "cdp-asheville-ektqmrjs",
           },
           settings: {},
         },
         municipality: {
-          name: "Seattle Staging",
-          timeZone: "America/Los_Angeles",
+          name: "Asheville",
+          timeZone: "America/New_York",
           footerLinksSections: [],
         },
       }}

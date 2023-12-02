@@ -29,7 +29,7 @@ export interface AppConfig {
 const AppConfigContext = createContext<AppConfig>({
   firebaseConfig: {
     options: {
-      projectId: "cdp-seattle-staging-dbengvtn",
+      projectId: "cdp-asheville-ektqmrjs",
     },
     settings: {
       // merge bool Whether to merge the provided settings with the existing settings. If set to true, the settings are merged with existing settings. If set to false or left unset, the settings replace the existing settings.
@@ -40,8 +40,8 @@ const AppConfigContext = createContext<AppConfig>({
     },
   },
   municipality: {
-    name: "Seattle Staging",
-    timeZone: "America/Los_Angeles",
+    name: "Asheville",
+    timeZone: "America/New_York",
     footerLinksSections: [],
   },
 });
