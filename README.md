@@ -37,6 +37,10 @@ You should now be able to access the site at:
 
 http://localhost:3000/
 
+4. Deploying updates
+
+If you've contributed work that is ready to be deployed to the "live" Asheville CDP instance, contact Patrick Conant (patrick@prcapps.com).
+
 Full contribution instructions: [CONTRIBUTING.md](CONTRIBUTING.md)
 ---
 
