@@ -30,7 +30,7 @@ npm ci
 3. Run the site with Vite
 
 ```
-npm run start:site
+npm run start:app
 ```
 
 Full contribution instructions: [CONTRIBUTING.md](CONTRIBUTING.md)
