@@ -8,6 +8,34 @@ The Council Data Project UI component library and exportable web app used by CDP
 
 ---
 
+## This Repo: Asheville Council Data Project forked version
+
+0. Make sure you have Node 16 installed. If not, I like to use NVM to manage node versions:
+
+https://blog.logrocket.com/how-switch-node-js-versions-nvm/
+
+1. Check out this repo:
+
+```
+$ git clone git@github.com:sunshine-request/cdp-frontend.git
+```
+
+2. Install NPM dependencies
+
+``` 
+cd cdp-frontend
+npm install
+```
+
+3. Run the site with Vite
+
+```
+npm run start:site
+```
+
+Full contribution instructions: [CONTRIBUTING.md](CONTRIBUTING.md)
+---
+
 ## Council Data Project
 
 Council Data Project is an open-source project dedicated to providing journalists, activists, researchers, and all members of each community we serve with the tools they need to stay informed and hold their Council Members accountable.
