@@ -24,7 +24,7 @@ $ git clone git@github.com:sunshine-request/cdp-frontend.git
 
 ``` 
 cd cdp-frontend
-npm install
+npm ci
 ```
 
 3. Run the site with Vite
