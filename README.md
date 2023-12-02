@@ -10,7 +10,7 @@ The Council Data Project UI component library and exportable web app used by CDP
 
 ## This Repo: Asheville Council Data Project forked version
 
-0. Make sure you have Node 16 installed. If not, I like to use NVM to manage node versions:
+0. Make sure you have Node 16 or Node 17 installed. If not, I like to use NVM to manage node versions:
 
 https://blog.logrocket.com/how-switch-node-js-versions-nvm/
 
@@ -24,13 +24,13 @@ $ git clone git@github.com:sunshine-request/cdp-frontend.git
 
 ``` 
 cd cdp-frontend
-npm install
+npm ci
 ```
 
 3. Run the site with Vite
 
 ```
-npm run start:site
+npm run start:app
 ```
 
 Full contribution instructions: [CONTRIBUTING.md](CONTRIBUTING.md)
