@@ -33,6 +33,10 @@ npm ci
 npm run start:app
 ```
 
+You should now be able to access the site at:
+
+http://localhost:3000/
+
 Full contribution instructions: [CONTRIBUTING.md](CONTRIBUTING.md)
 ---
 
