@@ -8,6 +8,7 @@ const de = {
   council_decision: "Beschluss des Rates",
   votes: "Stimmen",
   meeting: "Treffen",
+  meetings: "Treffen",
   persons_vote: "{name}s Stimee",
   en: "English",
   es: "Español",
@@ -55,7 +56,6 @@ const de = {
   search_municipality_name: "{municipality_name} suchen",
   events: "Veranstaltungen",
   links: "Links",
-  people: "Menschen",
   council_data_project: "Council Data Project",
   transcript: "Transkript",
   agenda: "Agenda",
@@ -99,6 +99,10 @@ const de = {
     "Wenn Sie ein Experte für maschinelles Lernen sind und dabei helfen möchten, unsere Systeme zur Generierung von Transkripten (oder etwas anderem!) zu verbessern, wenden Sie sich bitte über GitHub an uns.",
   copy_button: "Text kopieren",
   donate: "Spenden",
+  welcome_to: "Willkommen Council Data Project von {municipality_name}.",
+  superb_search_engine:
+    "Eine hervorragende Suchmaschine für öffentliche Sitzungen in {municipality_name}.",
+  browse_meetings: "Sitzungen Durchsuchen",
 };
 
 export default de;

@@ -35,23 +35,27 @@ const NavItems = styled.div<NavItemsProps>((props) => ({
   },
 }));
 
-export interface HeaderProps {
-  /** The name of the municipality */
-  municipalityName: string;
-}
-
 function currentUnderline(currentPath: string, componentPath: string): React.CSSProperties {
-  const currUnderline: React.CSSProperties = { textDecoration: "underline" };
+  const currUnderline: React.CSSProperties = { color: "#15141a" };
+  //!Changed above, because mockup wants underline.
   if (currentPath === componentPath) {
-    return currUnderline;
+    return {
+      ...currUnderline,
+      borderBottom: "1px solid",
+      paddingBottom: "3px",
+    };
   } else if (componentPath.length > 1 && currentPath.includes(componentPath)) {
-    return currUnderline;
+    return {
+      ...currUnderline,
+      borderBottom: "1px solid",
+      paddingBottom: "3px",
+    };
   }
 
   return {};
 }
 
-const Header: FC<HeaderProps> = ({ municipalityName }: HeaderProps) => {
+const Header: FC = () => {
   const [navigationIsVisible, setNavigationIsVisible] = useState<boolean>(false);
 
   const location = useLocation().pathname;
@@ -89,30 +93,19 @@ const Header: FC<HeaderProps> = ({ municipalityName }: HeaderProps) => {
                   <ul className="mzp-c-menu-category-list">
                     <li className="mzp-c-menu-category">
                       <Link
-                        to="/"
-                        className="mzp-c-menu-title"
-                        style={currentUnderline(location, "/")}
-                      >
-                        {municipalityName}
-                      </Link>
-                    </li>
-                    <li className="mzp-c-menu-category">
-                      <Link
                         to="/events"
                         className="mzp-c-menu-title"
-                        style={currentUnderline(location, "/events")}
+                        // style={currentUnderline(location, "/events")}
+                        // !Need to figure out styling above
                       >
-                        {strings.events}
+                        {strings.meetings}
                       </Link>
                     </li>
                     <li className="mzp-c-menu-category">
-                      <Link
-                        to="/people"
-                        className="mzp-c-menu-title"
-                        style={currentUnderline(location, "/people")}
-                      >
-                        {strings.people}
-                      </Link>
+                      <a href="https://councildataproject.github.io/" className="mzp-c-menu-title">
+                        {/* Need to add styling from above */}
+                        {strings.council_data_project}
+                      </a>
                     </li>
                   </ul>
                 </nav>

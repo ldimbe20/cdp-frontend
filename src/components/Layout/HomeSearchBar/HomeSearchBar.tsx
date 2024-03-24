@@ -143,7 +143,14 @@ const HomeSearchBar: FC = () => {
             value={searchQuery}
             onChange={onSearchChange}
           />
-          <SearchExampleTopic className="mzp-c-field-info">
+          <SearchExampleTopic
+            className="mzp-c-field-info"
+            style={{
+              color: "#000000",
+              fontStyle: "italic",
+              textAlign: "left",
+            }}
+          >
             {strings.example_prefix}
             {exampleSearchQuery}
           </SearchExampleTopic>

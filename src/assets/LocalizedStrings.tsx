@@ -57,7 +57,6 @@ export interface MasterStringsList extends LocalizedStringsMethods {
   links: string;
   events: string;
   event_search_results: string;
-  people: string;
   council_data_project: string;
   search_municipality_name: string;
   number_approved: string;
@@ -67,6 +66,7 @@ export interface MasterStringsList extends LocalizedStringsMethods {
   council_decision: string;
   votes: string;
   meeting: string;
+  meetings: string;
   persons_vote: string;
   meeting_votes_caption: string;
   en: string;
@@ -108,6 +108,9 @@ export interface MasterStringsList extends LocalizedStringsMethods {
   disclaimer_footer_end: string;
   copy_button: string;
   donate: string;
+  welcome_to: string;
+  superb_search_engine: string;
+  browse_meetings: string;
 }
 
 // Note: Add languages to video.js in /src/pages/EventPage/utils when adding new languages

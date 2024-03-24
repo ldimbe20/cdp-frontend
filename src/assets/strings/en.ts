@@ -7,6 +7,7 @@ const en = {
   council_decision: "Council Decision",
   votes: "Votes",
   meeting: "Meeting",
+  meetings: "Meetings",
   persons_vote: "{name}'s Vote",
   en: "English",
   es: "Español",
@@ -54,7 +55,6 @@ const en = {
   search_municipality_name: "Search {municipality_name}",
   events: "Events",
   links: "Links",
-  people: "People",
   council_data_project: "Council Data Project",
   transcript: "Transcript",
   agenda: "Agenda",
@@ -97,6 +97,9 @@ const en = {
     "If you are a machine learning expert and wish to help improve our systems for generating transcripts (or something else!), please reach out to us on GitHub.",
   copy_button: "Copy text",
   donate: "Donate",
+  welcome_to: "Welcome to {municipality_name}'s Council Data Project.",
+  superb_search_engine: "A superb search engine for public meetings in {municipality_name}.",
+  browse_meetings: "Browse Meetings",
 };
 
 export default en;
